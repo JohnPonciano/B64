@@ -4,6 +4,12 @@ interface TypeformEmbedProps {
   formId: string;
 }
 
+declare global {
+  interface Window {
+    tf: any; // You might need to replace 'any' with the correct type if available
+  }
+}
+
 const TypeformEmbed: React.FC<TypeformEmbedProps> = ({ formId }) => {
   useEffect(() => {
     const script = document.createElement('script');

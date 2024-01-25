@@ -4,7 +4,7 @@ import styled from "styled-components";
 function JoinUsComponent() {
   return (
     <JoinUs>
-      <ContentContainer maxWidth={1200} lazyLoad={false}>
+      <ContentContainer>
         <Section>
           <TitleContainer>
             <h1>
@@ -72,7 +72,6 @@ const Section = styled.section`
   width: 100%;
   align-self: stretch;
   flex-grow: 1;
-  max-width: ${(props) => props.maxWidth}px;
   margin-left: auto;
   margin-right: auto;
 `;
