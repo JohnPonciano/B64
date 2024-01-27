@@ -3,7 +3,8 @@
  */
 import React from "react";
 import styled from "styled-components";
-
+import { Link as ScrollLink } from 'react-scroll';
+import Link from "next/link";
 function SectionHome() {
   return (
     <HomeSection>
@@ -12,7 +13,7 @@ function SectionHome() {
         <ContentContainer>
           <InnerContainer>
             <Image2 loading="lazy" srcSet="/B64-white.png" />
-            <Image3
+              <Image3 
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/e8b1eac59c62e43c9b19e0dee34448e70488777b84a6acf2f4d410fbd60c03e2?apiKey=ed7f45803d864cc6bc12114b73d5e994&"
             />
@@ -27,6 +28,9 @@ const HomeSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+
 `;
 
 const Container = styled.div`

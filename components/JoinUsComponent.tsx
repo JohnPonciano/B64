@@ -23,7 +23,9 @@ function JoinUsComponent() {
                   Are you excited to see where this journey will lead us as we
                   work together on an all-new IP?
                 </p>
+                <br></br>
                 <p>Are you ready to bring shape to the B64?</p>
+                <br></br>
                 <p>
                   Our goal at B64 is to combine exciting world building,
                   engaging gameplay and impressive visual quality into focused
@@ -51,6 +53,8 @@ const JoinUs = styled.div`
   background-color: rgba(29, 29, 29, 1);
   margin-bottom: -1px;
   padding-bottom: 2px;
+  font-family: 'Quicksand', sans-serif;
+
 `;
 
 const ContentContainer = styled.div`
@@ -60,6 +64,8 @@ const ContentContainer = styled.div`
   margin-top: 33px;
   min-height: 0px;
   padding: 0 20px 20px;
+  font-family: 'Quicksand', sans-serif;
+
 `;
 
 const Section = styled.section`
@@ -74,30 +80,36 @@ const Section = styled.section`
   flex-grow: 1;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Quicksand', sans-serif;
 `;
 
 const TitleContainer = styled.div`
   position: relative;
   margin-top: 20px;
   height: auto;
-  font-size: 30px;
+  font-size: 50px;
   color: rgba(255, 255, 255, 1);
+  font-family: 'Quicksand', sans-serif;
+
 `;
 
 const JobContainer = styled.div`
   gap: 20px;
   display: flex;
+  font-family: 'Quicksand', sans-serif;
   @media (max-width: 991px) {
     flex-direction: column;
     align-items: stretch;
     gap: 0px;
   }
+
 `;
 
 const Column = styled.div`
   display: flex;
   flex-direction: column;
   line-height: normal;
+  font-family: 'Quicksand', sans-serif;
   width: 50%;
   margin-left: 0px;
   @media (max-width: 991px) {
@@ -110,15 +122,20 @@ const Title = styled.div`
   margin-top: 20px;
   height: auto;
   color: rgba(238, 73, 73, 1);
-  font-size: 100px;
+  font-size: 150px;
+  font-family: 'Quicksand', sans-serif;
+
 `;
 
 const Description = styled.div`
   position: relative;
   height: auto;
-  font-size: 15px;
+  font-size: 20px;
   text-align: left;
   color: rgba(255, 255, 255, 1);
+  font-family: 'Quicksand', sans-serif;
+  
+
 `;
 
 const Image = styled.img`

@@ -9,6 +9,9 @@ const StyledContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   background-color: rgba(0, 0, 0, 1);
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+
 `;
 
 const StyledInnerContainer = styled.div`

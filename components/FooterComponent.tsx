@@ -45,7 +45,8 @@ const Content = styled.div`
   justify-content: center;
   align-items: start;
   padding: 50px 60px;
-  font: 700 52px Inter, sans-serif;
+  font: 700 52px Quicksand, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   @media (max-width: 991px) {
     max-width: 100%;
     padding: 40px 20px 40px 30px;
@@ -58,6 +59,7 @@ const CodeBlock = styled.div`
   margin-top: 20px;
   background-color: #636363;
   padding-top: 20px;
+  font-family: 'Quicksand', sans-serif;
 `;
 
 const FooterText = styled.div`
@@ -68,11 +70,12 @@ const FooterText = styled.div`
   margin-top: auto;
   background-color: rgba(0, 0, 0, 1);
   padding: 20px 0 27px;
+  font-family: 'Quicksand', sans-serif;
 `;
 
 function FooterComponent() {
   return (
-    <UpdatedFooter>
+    <UpdatedFooter id="footer">
       <Container>
         <BackgroundImage loading="lazy" srcSet="/bg3.jpeg" />
         <Content>

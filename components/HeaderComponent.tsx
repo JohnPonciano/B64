@@ -4,6 +4,7 @@
 import React from "react";
 import styled from "styled-components";
 import Image from "next/image";
+import { Link as ScrollLink } from 'react-scroll';
 
 function HeaderComponent() {
   return (
@@ -13,8 +14,12 @@ function HeaderComponent() {
       height={100}
       />
       <Navigation>
-        <Link>Home</Link>
-        <Link>Contact</Link>
+        <Link >Home</Link>
+        <Link >
+          <ScrollLink to="footer" smooth={true} duration={500}>
+            Contact
+          </ScrollLink>
+          </Link>
       </Navigation>
     </Header>
   );
@@ -24,29 +29,37 @@ const Header = styled.header`
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 0px;
   background-color: rgba(36, 36, 36, 1);
+  font-family: 'Quicksand', sans-serif;
+
 `;
 
 const CustomImage = styled(Image)`
   aspect-ratio: 1;
   object-fit: cover;
   object-position: center;
-  width: 120px;
+  width: 100px;
 `;
 
 const Navigation = styled.nav`
   align-items: center;
   display: flex;
   font-size: 30px;
+  
 `;
 
 const Link = styled.a`
-  text-decoration: none;
+  text-decoration: pointer;
+  cursor:pointer;
   margin-right: 24px;
   @media (max-width: 640px) {
     font-size: 24px;
+  }transition: color 0.3s ease-in-out;
+  &:hover {
+    color: #ff8c00;
   }
+  
 `;
 
 export default HeaderComponent;
