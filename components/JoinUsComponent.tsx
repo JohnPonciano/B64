@@ -20,23 +20,21 @@ function JoinUsComponent() {
               </Title>
               <Description>
                 <p>
-                  Are you excited to see where this journey will lead us as we
-                  work together on an all-new IP?
+                  Você está animado para ver para onde esta jornada nos
+                   levará enquanto trabalhamos juntos em noso Projetos?
                 </p>
                 <br></br>
-                <p>Are you ready to bring shape to the B64?</p>
+                <p>Você está pronto para dar forma a B64?</p>
                 <br></br>
                 <p>
-                  Our goal at B64 is to combine exciting world building,
-                  engaging gameplay and impressive visual quality into focused
-                  and unique experiences.
+                Nosso objetivo na B64 é combinar a emocionante construção de mundos, design envolvente com qualidade visual impressionante em experiências focadas e únicas.
                 </p>
               </Description>
             </Column>
             <Column>
               <Image
                 loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets%2Fed7f45803d864cc6bc12114b73d5e994%2F490dcc4ecebb41ca969376b835253c68?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2Fed7f45803d864cc6bc12114b73d5e994%2F490dcc4ecebb41ca969376b835253c68?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2Fed7f45803d864cc6bc12114b73d5e994%2F490dcc4ecebb41ca969376b835253c68?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2Fed7f45803d864cc6bc12114b73d5e994%2F490dcc4ecebb41ca969376b835253c68?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2Fed7f45803d864cc6bc12114b73d5e994%2F490dcc4ecebb41ca969376b835253c68?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2Fed7f45803d864cc6bc12114b73d5e994%2F490dcc4ecebb41ca969376b835253c68?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2Fed7f45803d864cc6bc12114b73d5e994%2F490dcc4ecebb41ca969376b835253c68?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2Fed7f45803d864cc6bc12114b73d5e994%2F490dcc4ecebb41ca969376b835253c68"/>
+                srcSet="https://cdn.builder.io/api/v1/image/assets%2Fed7f45803d864cc6bc12114b73d5e994%2F490dcc4ecebb41ca969376b835253c68?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2Fed7f45803d864cc6bc12114b73d5e994%2F490dcc4ecebb41ca969376b835253c68?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2Fed7f45803d864cc6bc12114b73d5e994%2F490dcc4ecebb41ca969376b835253c68?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2Fed7f45803d864cc6bc12114b73d5e994%2F490dcc4ecebb41ca969376b835253c68?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2Fed7f45803d864cc6bc12114b73d5e994%2F490dcc4ecebb41ca969376b835253c68?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2Fed7f45803d864cc6bc12114b73d5e994%2F490dcc4ecebb41ca969376b835253c68?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2Fed7f45803d864cc6bc12114b73d5e994%2F490dcc4ecebb41ca969376b835253c68?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2Fed7f45803d864cc6bc12114b73d5e994%2F490dcc4ecebb41ca969376b835253c68" />
             </Column>
           </JobContainer>
         </Section>
