@@ -124,14 +124,14 @@ function FooterComponent() {
           <p>BEING SEEN.</p>
         </Content>
         <CodeBlock>
-          <TypeformEmbed formId="01HN0ZKXTEBR054TW0JPSQP1D2"></TypeformEmbed>
+          <TypeformEmbed formId="01HN9GK73JJW2KR6THFFE50YDF"></TypeformEmbed>
         </CodeBlock>
         <SocialBox>
         <Navigation>
-      <Link href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+      <Link href="https://www.instagram.com/bg64.log" target="_blank" rel="noopener noreferrer">
         <SocialIcon src="/instagram.png" alt="Instagram" />
       </Link>
-      <Link href="https://www.discord.com/" target="_blank" rel="noopener noreferrer">
+      {/* <Link href="https://www.discord.com/" target="_blank" rel="noopener noreferrer">
         <SocialIcon src="/discord.png" alt="Discord" />
       </Link>
       <Link href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
@@ -139,7 +139,7 @@ function FooterComponent() {
       </Link>
       <Link href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
         <SocialIcon src="/youtube.png" alt="YouTube" />
-      </Link>
+      </Link> */}
     </Navigation>
         </SocialBox>
         <FooterText>
